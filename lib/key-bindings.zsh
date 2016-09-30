@@ -73,6 +73,9 @@ bindkey '\C-x\C-e' edit-command-line
 # file rename magick
 bindkey "^[m" copy-prev-shell-word
 
+# bash-like keybindings
+bindkey '^U' backward-kill-line
+
 # consider emacs keybindings:
 
 #bindkey -e  ## emacs key bindings
