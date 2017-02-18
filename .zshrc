@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
 CHXIA=/home/admin/chxia
 
-export ZSH=$CHXIA/sw/oh-my-zsh
+export ZSH=$CHXIA/sw/zsh/oh-my-zsh
 source $CHXIA/env.sh
 
 # Set name of the theme to load.
