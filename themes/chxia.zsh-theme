@@ -1,5 +1,5 @@
 HOST=''
-local ret_status="%(?:%{$fg_bold[green]%}-> :%{$fg_bold[red]%}-> %s)"
+local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
 
 PROMPT='
 [%{$fg_bold[black]%}%*%{$reset_color%}]$fg_bold[cyan]${HOST} ${ret_status}%{$fg_bold[blue]%}%p%{$fg[blue]%}%(!.%1~.%~) ] %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}
