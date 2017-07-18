@@ -75,6 +75,9 @@ bindkey "^[m" copy-prev-shell-word
 
 # bash-like keybindings
 bindkey '^U' backward-kill-line
+# delete char
+bindkey '^l' delete-char
+bindkey '^h' backward-delete-char
 
 # consider emacs keybindings:
 
